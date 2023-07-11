@@ -1,0 +1,34 @@
+
+.info-container{
+    color: inherit;
+    background: 0px center;
+     opacity: 1;
+     width: 100%;
+     grid-area: 1 / 2 / auto / auto;
+     font: inherit;
+     min-width: 2px;
+      border: 0px; 
+      margin: 0px;
+      outline: 0px;
+      padding: 0px;
+}
+
+.info-button{
+    position: absolute;
+    right: 18px;
+    border: none;
+    background-color: inherit;   
+}
+
+.info-dive-section{
+    width: 320px;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+/* .info-card-body{
+
+} */
+.info-select-option{
+    color: lightgray;
+}

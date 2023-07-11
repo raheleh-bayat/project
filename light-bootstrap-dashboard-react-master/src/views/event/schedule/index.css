@@ -1,0 +1,17 @@
+.schedule-div{
+    position: relative;
+}
+.schedule-icon{
+    position: absolute;
+    right:4px;
+}
+.schedule-text{
+    font-size: small;
+    color: gray;
+}
+.schedule-button{
+    margin-top: 10px;
+    margin-left: -13px;
+    border: 0.5px solid white;
+    color: gray;
+}

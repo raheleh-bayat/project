@@ -1,0 +1,10 @@
+.fooder-card-body{
+    border: none;
+}
+.fooder-button{
+    margin-left: 5px;
+    border: none;
+    border-radius:5px;
+    color: gray;
+    height: 35px;
+}
