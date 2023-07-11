@@ -2,8 +2,22 @@
     font-size: small;
     color: gray;
 }
-.cudtomfield-buton{
-    margin-top: 10px;
-    margin-left: -13px;
-    border: 0.5px solid white;
+
+.custom-select{
+    position: absolute;
+    top:32px;
+    right: 5px;
+}
+
+.custom-btn{
+    /* box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75); */
+ box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border: none;
+    width: 100px;
+    height: 35px;
+    font-size: small;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: -10px;
+    color: black;
 }
