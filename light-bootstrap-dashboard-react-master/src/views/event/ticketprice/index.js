@@ -73,12 +73,9 @@ export const TicketPrice =() => {
           </thead>
           <tbody>
             <tr>
-              <input
-                placeholder="Option Name"
-                type="text"
-                class="form-control form-control-sm"
-                value="Front desks"
-              />
+              <td>
+              <input className="ticketprice-table" placeholder="Optional Name"/>
+              </td>
               <td>
                 <div class="input-group-prepend input-group-sm">
                   <span class="input-group-text" id="inputGroupPrepend">
@@ -96,7 +93,10 @@ export const TicketPrice =() => {
                 </div>
               </td>
               <td>
-                <div class="text-center align-middle">
+                <div
+                  class="text-center align-middle"
+                  className="ticketprice-div-input"
+                >
                   {" "}
                   <input
                     type="radio"
@@ -115,18 +115,20 @@ export const TicketPrice =() => {
                   fill="currentColor"
                   class="bi bi-x-circle-fill"
                   viewBox="0 0 16 16"
+                  className="ticketprice-icon"
                 >
                   <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z" />
                 </svg>
               </td>
             </tr>
             <tr>
-              {/* <input placeholder="Option Name" type="text" class="form-control form-control-sm" value="Green gallery"/> */}
+              <td>
               <input
-                type="text"
-                class="form-control from-control-sm"
-                value="Green gallery"
+                className="ticketprice-table2"
+                placeholder="Green gallery"
               />
+              </td>
+
               <td>
                 <div class="input-group-prepend input-group-sm">
                   <span class="input-group-text" id="inputGroupPrepend">
@@ -144,7 +146,10 @@ export const TicketPrice =() => {
                 </div>
               </td>
               <td>
-                <div class="text-center align-middle">
+                <div
+                  class="text-center align-middle"
+                  className="ticketprice-div-input"
+                >
                   {" "}
                   <input
                     type="radio"
@@ -163,18 +168,19 @@ export const TicketPrice =() => {
                   fill="currentColor"
                   class="bi bi-x-circle-fill"
                   viewBox="0 0 16 16"
+                  className="ticketprice-icon"
                 >
                   <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z" />
                 </svg>
               </td>
             </tr>
             <tr>
+              <td>
               <input
                 placeholder="Option Name"
-                type="text"
-                class="form-control form-control-sm"
-                value="VIP"
+                className="ticketprice-table3"
               />
+              </td>
               <td>
                 <div class="input-group-prepend input-group-sm">
                   <span class="input-group-text" id="inputGroupPrepend">
@@ -192,7 +198,10 @@ export const TicketPrice =() => {
                 </div>
               </td>
               <td>
-                <div class="text-center align-middle">
+                <div
+                  class="text-center align-middle"
+                  className="ticketprice-div-input"
+                >
                   {" "}
                   <input
                     type="radio"
@@ -211,6 +220,7 @@ export const TicketPrice =() => {
                   fill="currentColor"
                   class="bi bi-x-circle-fill"
                   viewBox="0 0 16 16"
+                  className="ticketprice-icon"
                 >
                   <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z" />
                 </svg>

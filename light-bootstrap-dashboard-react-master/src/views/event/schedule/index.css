@@ -4,6 +4,7 @@
 .schedule-icon{
     position: absolute;
     right:4px;
+    color: red;
 }
 .schedule-text{
     font-size: small;

@@ -17,9 +17,44 @@
     font-size: small;
     border-radius: 10px;
 }
-.ticketprice-input{
+/* .ticketprice-input{
     height: 40px;
     border-radius: 5px;
     border: 1px solid lightgray;
     width: 500px;
+} */
+.ticketprice-icon{
+    color: red;
+}
+.ticketprice-div-input{
+    position: absolute;
+    right:100px;
+    bottom:45px;
+}
+.ticketprice-table{
+    position: absolute;
+    top:15px;
+    left: 10px;
+    width: 145px;
+    height: 35px;
+    border: lightgray;
+    border-radius: 5px;
+}
+.ticketprice-table2{
+    position: absolute;
+    top:15px;
+    left: 10px;
+    width: 145px;
+    height: 35px;
+    border: lightgray;
+    border-radius: 5px;
+}
+.ticketprice-table3{
+    position: absolute;
+    top:15px;
+    left: 10px;
+    width: 145px;
+    height: 35px;
+    border: lightgray;
+    border-radius: 5px;
 }

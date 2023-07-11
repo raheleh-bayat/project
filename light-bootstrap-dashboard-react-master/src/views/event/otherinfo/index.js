@@ -72,7 +72,7 @@ export const Info = () => {
     //     </div>
     //   </form>
     // </div>
-    <div class="sticky-slidebar">
+    <div class="sticky-slidebar" className="info-sidebar">
       <div class="card">
         <h5 class="card-header">Other Info</h5>
         <div class="bg-light card-body">

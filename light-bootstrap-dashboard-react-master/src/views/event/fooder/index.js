@@ -20,7 +20,7 @@ export const Fooder =() =>{
                 <button
                   type="button"
                   class="btn btn-falcon-primary btn-sm"
-                  className="fooder-button"
+                  className="fooder-button2"
                 >
                   Make your event live
                 </button>
